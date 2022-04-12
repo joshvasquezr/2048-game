@@ -14,7 +14,7 @@ body {
 }
 
 #game-board {
-    display: grid;
+    display: grid; 
     grid-template-columns: repeat(var(--grid-size), var(--cell-size));
     grid-template-rows: repeat(var(--grid-size), var(--cell-size));
     background-color: #CCC;
